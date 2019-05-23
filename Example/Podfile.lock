@@ -1,0 +1,16 @@
+PODS:
+  - SimplePDFViewer (0.1.0)
+
+DEPENDENCIES:
+  - SimplePDFViewer (from `../`)
+
+EXTERNAL SOURCES:
+  SimplePDFViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimplePDFViewer: 15ee1529a700409f8f8319814774c4a89781adba
+
+PODFILE CHECKSUM: 18dc7ac8295a613e8c03ddd4f0a07eb7b52d66b2
+
+COCOAPODS: 1.6.0

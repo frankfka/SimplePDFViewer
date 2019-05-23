@@ -1,0 +1,6 @@
+framework module Pods_SimplePDFViewer_Example {
+  umbrella header "Pods-SimplePDFViewer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
