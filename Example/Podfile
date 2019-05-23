@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimplePDFViewer_Example' do
+  pod 'SimplePDFViewer', :path => '../'
+
+  target 'SimplePDFViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
