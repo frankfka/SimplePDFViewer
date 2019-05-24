@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SimplePDFViewer: fe65cec317e5d5e1327fca89a761654bdc1deadb
+  SimplePDFViewer: de92949860ba465e5f46042252fd8b3a069f66fe
   SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
 PODFILE CHECKSUM: 18dc7ac8295a613e8c03ddd4f0a07eb7b52d66b2
