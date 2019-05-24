@@ -1,22 +1,31 @@
 {
   "name": "SimplePDFViewer",
   "version": "0.1.0",
-  "summary": "A short description of SimplePDFViewer.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Display & share PDF documents easily in iOS.",
+  "description": "SimplePDFViewer is a view controller that displays a PDF document along with some basic PDF functionality.",
   "homepage": "https://github.com/frankfka/SimplePDFViewer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "frankfka": "jiafrank98@gmail.com"
+    "Frank Jia": "jiafrank98@gmail.com"
   },
   "source": {
     "git": "https://github.com/frankfka/SimplePDFViewer.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "SimplePDFViewer/Classes/**/*"
+  "source_files": "SimplePDFViewer/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "PDFKit"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  }
 }

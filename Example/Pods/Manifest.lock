@@ -1,16 +1,23 @@
 PODS:
-  - SimplePDFViewer (0.1.0)
+  - SimplePDFViewer (0.1.0):
+    - SnapKit (~> 5.0.0)
+  - SnapKit (5.0.0)
 
 DEPENDENCIES:
   - SimplePDFViewer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   SimplePDFViewer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SimplePDFViewer: 15ee1529a700409f8f8319814774c4a89781adba
+  SimplePDFViewer: fe65cec317e5d5e1327fca89a761654bdc1deadb
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
 PODFILE CHECKSUM: 18dc7ac8295a613e8c03ddd4f0a07eb7b52d66b2
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.7.0
