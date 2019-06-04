@@ -1,5 +1,5 @@
 PODS:
-  - SimplePDFViewer (0.1.0):
+  - SimplePDFViewer (0.1.1):
     - SnapKit (~> 5.0.0)
   - SnapKit (5.0.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SimplePDFViewer: de92949860ba465e5f46042252fd8b3a069f66fe
+  SimplePDFViewer: 9a0d82c8019d97785a1862ad3614822e63470435
   SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
 PODFILE CHECKSUM: 18dc7ac8295a613e8c03ddd4f0a07eb7b52d66b2

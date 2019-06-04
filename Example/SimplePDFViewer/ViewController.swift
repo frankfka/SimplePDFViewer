@@ -74,6 +74,7 @@ class ViewController: UIViewController {
         pdfVC.tint = .red // Tint applies to all views in the VC
         pdfVC.exportPDFName = "TestExportPDF" // File name for sharing, default is "Document"
         pdfVC.errorMessage = "Uh oh!" // Custom error message if PDF fails to load
+        pdfVC.dismissalDelegate = self // Customize what happens when close button is pressed
         present(pdfVC, animated: true, completion: nil)
     }
     
@@ -85,3 +86,14 @@ class ViewController: UIViewController {
     
 }
 
+// Extension for Dismissal Delegate
+extension ViewController: SimplePDFViewOnDismissDelegate {
+    
+    func didDismiss(_ sender: SimplePDFViewController) {
+        // It is your responsibility to dismiss the VC
+        sender.dismiss(animated: true, completion: nil)
+        // Do whatever else you want to do
+        print("Hello!")
+    }
+
+}
