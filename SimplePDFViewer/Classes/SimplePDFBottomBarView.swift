@@ -45,7 +45,7 @@ class SimplePDFBottomBarView: UIView {
         }
     }
     
-    init()
+    init() {
         // Give a non-zero frame to initialize toolbar - correct size will be set when we create constraints
         let frame = CGRect(x: 0, y: 0, width: 200, height: 200)
         super.init(frame: frame)
