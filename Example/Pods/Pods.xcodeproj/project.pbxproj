@@ -17,7 +17,7 @@
 		4984B6CAC7BE5418B74150BA559ECF16 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */; };
 		4B708523267CD77CB0F20A5742257C1D /* Pods-SimplePDFViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A75CD4EF6C13F55215E1671AC7E219 /* Pods-SimplePDFViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E0AB48B7ACCBF752560CD07FADC6115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D86282294CD98A6E0673D08EC8D5A3 /* UIKit.framework */; };
-		4EB1CD9F0242833A29999CC518B4009C /* SimplePDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A1565941441F429FD99BBEE022F0E8 /* SimplePDFViewer.swift */; };
+		4EB1CD9F0242833A29999CC518B4009C /* SimplePDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A1565941441F429FD99BBEE022F0E8 /* SimplePDFView.swift */; };
 		4F02C5AE9DF4E8D85EC888EA95C0D17C /* SimplePDFBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189914875D39599082A1E0C329F2D277 /* SimplePDFBottomBarView.swift */; };
 		51546F3A121B30F5E58F202263C54B0C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */; };
 		53CD3907F3EC9C6EC36DFE05DD9CC42C /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */; };
@@ -98,7 +98,7 @@
 		0AF9916084435C7790B26629C41381A2 /* SimplePDFViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePDFViewer-umbrella.h"; sourceTree = "<group>"; };
 		141FAEAEB61FDA38D7A4C3EFECE3A01D /* Pods-SimplePDFViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePDFViewer_Tests-dummy.m"; sourceTree = "<group>"; };
 		144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		14A1565941441F429FD99BBEE022F0E8 /* SimplePDFViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplePDFViewer.swift; path = SimplePDFViewer/Classes/SimplePDFViewer.swift; sourceTree = "<group>"; };
+		14A1565941441F429FD99BBEE022F0E8 /* SimplePDFView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimplePDFView.swift; path = SimplePDFViewer/Classes/SimplePDFView.swift; sourceTree = "<group>"; };
 		161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		1633A933C4C0A665F05DE91ED81C5F3C /* SimplePDFViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimplePDFViewer-prefix.pch"; sourceTree = "<group>"; };
 		16820A2A57E4BA41A204C62D81DAFFA1 /* SimplePDFViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimplePDFViewer-Info.plist"; sourceTree = "<group>"; };
@@ -108,10 +108,10 @@
 		24FF671F7DD0AE0A9C08189E7380232C /* Pods-SimplePDFViewer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePDFViewer_Example-dummy.m"; sourceTree = "<group>"; };
 		254730DE882ECE173C9E1669F635C991 /* Pods-SimplePDFViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePDFViewer_Example.modulemap"; sourceTree = "<group>"; };
 		25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		2623D790572F9D00653C4B398D1B0395 /* Pods_SimplePDFViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePDFViewer_Tests.framework; path = "Pods-SimplePDFViewer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2623D790572F9D00653C4B398D1B0395 /* Pods_SimplePDFViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePDFViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		2DE6DE3C17DEE86495FF7495DDB99D1B /* Pods-SimplePDFViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePDFViewer_Tests.modulemap"; sourceTree = "<group>"; };
-		3D571758A671A1E99F4227F358F7024A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D571758A671A1E99F4227F358F7024A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		40FF8CEC48577D048C462D56DA2C09DD /* Pods-SimplePDFViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimplePDFViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -135,13 +135,13 @@
 		784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		79561CAAD75E218AC4D1CFEE149F4E6C /* Pods-SimplePDFViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePDFViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		8323C0115B791DF4372B107C4740ACD6 /* SimplePDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimplePDFViewer.framework; path = SimplePDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323C0115B791DF4372B107C4740ACD6 /* SimplePDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimplePDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		863169A33541E89F20BADB6E306805F5 /* Pods-SimplePDFViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePDFViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		9D45FFC5C33F3A7F4828B15DD5721C8E /* SimplePDFViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePDFViewer.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		A650378CB92AFA4431010F53777145B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -157,14 +157,14 @@
 		C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		C4A75CD4EF6C13F55215E1671AC7E219 /* Pods-SimplePDFViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimplePDFViewer_Example-umbrella.h"; sourceTree = "<group>"; };
 		C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		C9CF5E799181980C0F2F0FD8E1A3EB38 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CF5E799181980C0F2F0FD8E1A3EB38 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		D88F44F2D6DED677A69FE527D7E621DF /* Pods-SimplePDFViewer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimplePDFViewer_Example-Info.plist"; sourceTree = "<group>"; };
-		D93CB43CF6DCC7CF6B341E9375BA787F /* Pods_SimplePDFViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimplePDFViewer_Example.framework; path = "Pods-SimplePDFViewer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0D4E4DA448DA148D15102E86E8C864 /* SimplePDFViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimplePDFViewer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D93CB43CF6DCC7CF6B341E9375BA787F /* Pods_SimplePDFViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePDFViewer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0D4E4DA448DA148D15102E86E8C864 /* SimplePDFViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimplePDFViewer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBFF95AE81696EB016E2BC529B9E78A3 /* Pods-SimplePDFViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePDFViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DEFDE34FBD4FA5063CE7AB3BC0B637B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEFDE34FBD4FA5063CE7AB3BC0B637B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
@@ -267,7 +267,7 @@
 				661C5DCAAC7BA1844AABAC953882B6CA /* SimplePDFJumpToPageDialog.swift */,
 				21DCC6D707F523F806E62A650DEA62D2 /* SimplePDFTopBarView.swift */,
 				FF2BDDE6B3F7632418C4E91D6033F679 /* SimplePDFViewController.swift */,
-				14A1565941441F429FD99BBEE022F0E8 /* SimplePDFViewer.swift */,
+				14A1565941441F429FD99BBEE022F0E8 /* SimplePDFView.swift */,
 				E4E497401DB82A65EF4FD8118ED7700A /* Pod */,
 				A514E223D44BB52A8960054696CE4150 /* Support Files */,
 			);
@@ -397,7 +397,6 @@
 				9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */,
 				C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -646,7 +645,7 @@
 				2BA75B474A214AC6B21E917E6477936A /* SimplePDFTopBarView.swift in Sources */,
 				DEB0F5FE834ED3D02DF41473442C2917 /* SimplePDFViewController.swift in Sources */,
 				83BA3DD1A02103E1E3DCF7B14C0404A6 /* SimplePDFViewer-dummy.m in Sources */,
-				4EB1CD9F0242833A29999CC518B4009C /* SimplePDFViewer.swift in Sources */,
+				4EB1CD9F0242833A29999CC518B4009C /* SimplePDFView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,8 +740,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
