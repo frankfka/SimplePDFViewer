@@ -20,9 +20,6 @@ class SimplePDFBottomBarView: UIView {
     
     private var bottomBar: UIToolbar = UIToolbar()
     private var bottomBarPageCount: UILabel = UILabel()
-    private var bottomBarShareButton: UIBarButtonItem! // Initialized on view load
-    private var bottomBarJumpToPageButton: UIBarButtonItem!
-    let flexibleSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
 
     // Configurable properties
     weak var delegate: SimplePDFBottomBarActionDelegate?
@@ -48,10 +45,12 @@ class SimplePDFBottomBarView: UIView {
         }
     }
     
-    init() {
-        super.init(frame: CGRect.zero)
+    init()
+        // Give a non-zero frame to initialize toolbar - correct size will be set when we create constraints
+        let frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        super.init(frame: frame)
 
-        bottomBar = UIToolbar()
+        bottomBar = UIToolbar(frame: frame)
         bottomBarPageCount = UILabel()
 
         bottomBar.barTintColor = .white
@@ -63,6 +62,7 @@ class SimplePDFBottomBarView: UIView {
         let bottomBarShareButton = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareButtonPressed))
         let bottomBarJumpToPageButton = UIBarButtonItem(title: "Jump To", style: .plain, target: self, action: #selector(jumpToPagePressed))
         let bottomBarItemPageNumber = UIBarButtonItem(customView: bottomBarPageCount)
+        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         bottomBar.setItems([bottomBarShareButton, flexibleSpace,
                             bottomBarItemPageNumber, flexibleSpace,
                             bottomBarJumpToPageButton], animated: false)
