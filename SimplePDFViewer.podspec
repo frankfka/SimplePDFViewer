@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SimplePDFViewer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Display & share PDF documents easily in iOS.'
   s.description      = <<-DESC
                         SimplePDFViewer is a UIViewController that displays a PDF document along with some basic PDF functionality such as zoom, export, and jump to page. Create the view controller using a PDFDocument, URL, or raw Data. Basic customization is available.
